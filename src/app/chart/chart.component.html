@@ -1,0 +1,12 @@
+<!--Div that will hold the pie chart-->
+<!-- <div id="chart_div"></div> -->
+
+<div>
+    <google-chart class="sizing" [title]="charts.title" [type]="charts.type" [data]="charts.data"
+        [columnNames]="charts.columnNames" [options]="charts.options" [height]="charts.height" [width]="charts.width">
+    </google-chart>
+    <google-chart [title]="relation.title" [type]="relation.type" [data]="relation.data"
+        [columnNames]="relation.columnNames" [options]="relation.options" [height]="relation.height"
+        [width]="relation.width">
+    </google-chart>
+</div>
